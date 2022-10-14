@@ -1,0 +1,36 @@
+@import '../../style.scss';
+@import "~bootstrap/scss/bootstrap";
+
+body .nav-sec,body .nav-sec .nav-link  {
+    @extend .montserrat-medium-black-18px;
+    line-height: 24px;
+}
+
+.my-navbar{
+    background-color: var(--white);
+}
+
+#search-ip
+    {
+      background-color:transparent;
+      border-right: 0;
+      height: 45px;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+    }
+ 
+
+
+.input-group > .form-control {
+    border-left: 0;
+    height: 45px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px;
+    width: 10rem;
+}
+
+.input-nav{
+ width: 24rem !important;
+}
+
+

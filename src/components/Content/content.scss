@@ -1,0 +1,145 @@
+@import '../../style.scss';
+@import "~bootstrap/scss/bootstrap";
+
+
+
+    @media (min-width: 1650px) {
+    .spec-cont{
+    max-width: 1650px;
+    }}
+
+
+ #content-photos{
+    height: 465px;
+    
+   
+}
+.breadcrumb-item a, .breadcrumb-item{
+    @extend .montserrat-medium-gray-18px;
+    text-decoration: none;
+    line-height: 43px;
+}
+ol.breadcrumb{
+    margin-bottom: 0;
+}
+.content-photo {
+    width: 100%;
+   height: 100%; 
+   object-fit: cover;
+   &__last {
+    background-color: black;
+   }
+   
+}
+.btn-check:checked + .btn {
+
+    background-color: white;
+    color: var(--blue-ribbon);
+    font-weight: 600;
+    
+}
+.btn-apply{
+    width: 22em;
+}
+
+.btn-check+.btn:hover { 
+
+    background-color: white;
+    color: var(--blue-ribbon);
+}
+
+.content-gallery-type .btn-primary{
+    border-radius: 2rem;
+    background-color: white;
+    color: var(--blue-ribbon);
+    border:0 !important;
+    box-shadow:0 5px 5px 1px #ddd;
+    padding: 10px 30px;
+
+}
+.spec-btn{
+    @extend .montserrat-medium-blue-ribbon-16px;
+    --bs-btn-padding-x: 4.75rem;
+    --bs-btn-padding-y: 0.575rem;
+    border-radius: 0.75rem;
+
+    
+}
+
+.icon-style {
+    border: 1px solid #ede8e9;
+    border-radius: 0.5rem; 
+    padding: 7px;
+    cursor: pointer; 
+    margin:0 0.5rem;
+}
+
+
+.content-gallery {
+    justify-content: center;
+    display: flex;
+    margin-top: -18px;
+}
+
+.spec-back{
+       background-color: rgba(22 184 243 / 30%);
+       display: inline-flex;
+       margin-left: -100vw;
+       padding-left: 100vw;
+       padding-right: 12rem;
+       border-top-right-radius: 20px;
+       border-bottom-right-radius: 20px;
+}
+
+.spec-hr
+ {
+    color: rgba(144, 142, 142, 1);
+ }
+
+ .spec-strikethrough
+ {
+    text-decoration: line-through;
+ }
+
+ .spec-check {
+    max-width: 250px;
+ }
+ .edu-size{
+    max-width: 350px;
+ }
+
+ .check-icon {
+    size: 20px;
+ }
+
+ .spec-exp-span{
+    opacity: 0.5;
+ }
+
+ .react-read-more-read-less {
+    @extend .montserrat-medium-blue-ribbon-18px;
+    display: block;
+    text-decoration: underline;
+ }
+
+ .card-content{
+    flex-direction: row;
+    
+    border: 0;
+ }
+
+.card-img-top{
+ width: 18rem;
+ height: 13rem;
+}
+
+.mt-n3{
+    margin-top: -1.5rem;
+    margin-left: 3.25rem;
+}
+
+.rent-card{
+    border-radius: 20px;
+    border-color: #EDE8E9;
+
+}
