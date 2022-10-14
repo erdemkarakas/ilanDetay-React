@@ -6,6 +6,7 @@
 
 Proje klasöründe, komutu çalıştırın:
 
+### `npm i`
 ### `npm start`
 
 Uygulamayı geliştirme modunda çalıştırır.\
