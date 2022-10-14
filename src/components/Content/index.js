@@ -415,7 +415,7 @@ function Content() {
               {/* İLAN AÇIKLAMASI */}
               <Col>
                 <div className='spec-back mt-5'>
-                  <h3 className='montserrat-semi-bold-black-30px mt-2'>İlan Açıklaması</h3>
+                  <h3 className='mb-3 montserrat-semi-bold-black-30px mt-2'>İlan Açıklaması</h3>
                 </div>
                 <br />
 
