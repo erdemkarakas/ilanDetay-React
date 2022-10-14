@@ -4,7 +4,7 @@
 
 ## Çalıştırmak için
 
-Proke klasöründe, bu komutu çalıştırın:
+Proje klasöründe, komutu çalıştırın:
 
 ### `npm start`
 
